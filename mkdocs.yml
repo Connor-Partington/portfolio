@@ -1,1 +1,16 @@
-site_name: My Docs
+site_name: Connor Partington
+site_url: https://connor-partington.github.io/portfolio/
+repo_url: https://github.com/Connor-Partington/portfolio
+site_description: A site for sharing my portfolio.
+site_author: Connor Partington
+
+extra_css:
+    - css/extra.css
+
+nav:
+  - Home: index.md
+  - Case Studies:
+    - Autocab SaaS: autocabsaas.md
+  - Technical Samples:
+    - How I built my site: how-I-built-my-site.md
+    - Release notes: release-notes.md

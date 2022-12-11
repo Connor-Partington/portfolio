@@ -1,17 +1,21 @@
-# Welcome to MkDocs
+# About
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+I’m Connor, a technical and UX writer based in Manchester, UK. Someone who takes the unbelievably complicated things developers create and makes them understandable for non-technical users.
 
-## Commands
+Here you will find written and visual samples of projects and pieces of work I've managed or had involvement with.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+Built with [MkDocs](https://www.mkdocs.org), managed using [GitHub](https://github.com/), and hosted on [GitPages](https://pages.github.com/).
 
-## Project layout
+## Case studies
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+Here are some projects I've worked on so far.
+
+[**Autocab SaaS**](autocabsaas.md)
+
+## Technical samples
+
+Here are samples of documents I've created.
+
+[**How I built my site**](how-I-built-my-site.md)
+
+[**Release notes**](release-notes.md)
