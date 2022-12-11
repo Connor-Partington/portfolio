@@ -6,9 +6,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         <meta name="author" content="Connor Partington">
-        <link rel="canonical" href="https://connor-partington.github.io/portfolio/autocabsaas/">
+        <link rel="canonical" href="https://connor-partington.github.io/portfolio/how-I-built-my-site/">
         <link rel="shortcut icon" href="../img/favicon.ico">
-        <title>Autocab SaaS - Connor Partington</title>
+        <title>How I built my site - Connor Partington</title>
         <link href="../css/bootstrap.min.css" rel="stylesheet">
         <link href="../css/font-awesome.min.css" rel="stylesheet">
         <link href="../css/base.css" rel="stylesheet">
@@ -36,21 +36,21 @@
                             <li class="navitem">
                                 <a href=".." class="nav-link">Home</a>
                             </li>
-                            <li class="dropdown active">
+                            <li class="dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Case Studies <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
 <li>
-    <a href="./" class="dropdown-item active">Autocab SaaS</a>
+    <a href="../autocabsaas/" class="dropdown-item">Autocab SaaS</a>
 </li>
                                 </ul>
                             </li>
-                            <li class="dropdown">
+                            <li class="dropdown active">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Technical Samples <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
 <li>
-    <a href="../how-I-built-my-site/" class="dropdown-item">How I built my site</a>
+    <a href="./" class="dropdown-item active">How I built my site</a>
 </li>
                                     
 <li>
@@ -67,17 +67,17 @@
                             </a>
                         </li>
                             <li class="nav-item">
-                                <a rel="prev" href=".." class="nav-link">
+                                <a rel="prev" href="../autocabsaas/" class="nav-link">
                                     <i class="fa fa-arrow-left"></i> Previous
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a rel="next" href="../how-I-built-my-site/" class="nav-link">
+                                <a rel="next" href="../release-notes/" class="nav-link">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="https://github.com/Connor-Partington/portfolio/edit/master/docs/autocabsaas.md" class="nav-link"><i class="fa fa-github"></i> Edit on GitHub</a>
+                                <a href="https://github.com/Connor-Partington/portfolio/edit/master/docs/how-I-built-my-site.md" class="nav-link"><i class="fa fa-github"></i> Edit on GitHub</a>
                             </li>
                     </ul>
                 </div>
@@ -97,21 +97,25 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-level="1"><a href="#autocab-saas" class="nav-link">Autocab SaaS</a>
+            <li class="nav-item" data-level="1"><a href="#how-i-built-my-site" class="nav-link">How I built my site</a>
               <ul class="nav flex-column">
-            <li class="nav-item" data-level="2"><a href="#case-study-autocab-2020" class="nav-link">Case Study - Autocab 2020</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-level="2"><a href="#audiences" class="nav-link">Audiences</a>
+            <li class="nav-item" data-level="2"><a href="#install-python-and-mkdocs" class="nav-link">Install Python and MkDocs</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-level="2"><a href="#challenges" class="nav-link">Challenges</a>
+            <li class="nav-item" data-level="2"><a href="#create-a-new-project" class="nav-link">Create a new project</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-level="2"><a href="#outcome" class="nav-link">Outcome</a>
+            <li class="nav-item" data-level="2"><a href="#preview-your-site" class="nav-link">Preview your site</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#build-it" class="nav-link">Build it</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#host-your-site-with-github-and-gitpages" class="nav-link">Host your site with GitHub and GitPages</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -122,30 +126,52 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h1 id="autocab-saas">Autocab SaaS</h1>
-<h2 id="case-study-autocab-2020">Case Study - Autocab 2020</h2>
-<p>Autocab is a leading taxi and private hire booking &amp; dispatch software provider, that offers innovative solutions to help businesses go further. I was hired to create and manage documentation for all their products. </p>
-<h2 id="audiences">Audiences</h2>
-<p>Overall the audience for this documentation was well-educated, but not necessarily technical. So the aim was to create easy-to-understand online help, without too much technical jargon, but at the same time, ensuring everything a user may need was covered. </p>
-<h2 id="challenges">Challenges</h2>
-<p>Autocab's existing documentation offered several challenges and opportunities:</p>
-<ul>
-<li>Documentation was hosted on WordPress with a single static page for release notes</li>
-<li>The WordPress configuration was disorganised</li>
-<li>Overused plugins were conflicting and causing issues</li>
-<li>Documentation didn't adhere to a style guide</li>
-<li>The documentation contained more marketing copy instead of helpful content </li>
-</ul>
-<p>Before starting any writing:</p>
-<ul>
-<li>Time was spent working with Autocab's WordPress site and products to understand how they work.</li>
-<li>The product categories were organised and the web of conflicting plugins was untangled.</li>
-<li>A style guide was put in place to maintain a consistent style, voice, and tone across the documentation.</li>
-<li>User personas were defined and used to set the audience for each product's documentation.</li>
-</ul>
-<p>The existing documentation was then rewritten to match the style guide and audiences, and new documentation was created to fill in any knowledge gaps for each product.</p>
-<h2 id="outcome">Outcome</h2>
-<p>Instead of a static release notes page, users now had an online knowledge base with categories for each product's documentation, and a search feature to find exactly what they're looking for. </p></div>
+<h1 id="how-i-built-my-site">How I built my site</h1>
+<p>10/12/2022</p>
+<p>Previously I used <a href="https://www.wix.com/">Wix</a>, however, it wasn't the result I was looking for so I decided to rebuild my portfolio using <a href="https://www.mkdocs.org">MkDocs</a>, <a href="https://github.com/">GitHub</a>, and <a href="https://pages.github.com/">GitPages</a>.</p>
+<p>If you would like to build a similar website then the next section includes a guide on how I did it. </p>
+<h2 id="install-python-and-mkdocs">Install Python and MkDocs</h2>
+<p>If you have Python installed already then you can skip this step. If not you can <a href="https://www.python.org/downloads/">download and install the latest release</a> from their website.</p>
+<p>Then install MkDocs through the command line by running:</p>
+<pre><code>pip install mkdocs
+</code></pre>
+<h2 id="create-a-new-project">Create a new project</h2>
+<p>Create a project by running the following command in the command line: </p>
+<pre><code>mkdocs new project
+</code></pre>
+<p>Change to your project directory using the <code>cd</code> command:</p>
+<pre><code>cd project
+</code></pre>
+<p>Check you have a folder named <code>project</code> that contains; a <code>docs</code> folder and two files <code>mkdocs.yml</code>, and <code>index.md</code>.</p>
+<p>For more details on these files see the MkDocs <a href="https://www.mkdocs.org/getting-started/">Getting Started</a> guide. </p>
+<h2 id="preview-your-site">Preview your site</h2>
+<p>You can preview your site by running the <code>mkdocs serve</code> command: </p>
+<pre><code>mkdocs serve
+</code></pre>
+<p>This will launch a local version of your site that you can view by going to http://127.0.0.1:8000/ in your browser.</p>
+<h2 id="build-it">Build it</h2>
+<p>Now you've had a look we can go ahead and build your site by running the <code>mkdocs build</code> command;</p>
+<pre><code>mkdocs build
+</code></pre>
+<p>This will create a new folder named <code>site</code> that includes everything you need for a static website. </p>
+<h2 id="host-your-site-with-github-and-gitpages">Host your site with GitHub and GitPages</h2>
+<p>If you haven't already, <a href="https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository">create a GitHub repository</a> for your website. </p>
+<p>Run the next command to make sure your <code>/site</code> folder is ignored by GitHub.</p>
+<pre><code>echo "site/" &gt;&gt; .gitignore
+</code></pre>
+<p>Then add your local MkDocs site to GitHub by running the following commands:</p>
+<pre><code>git init
+git add .
+git commit -m "First commit"
+git remote add origin &lt;REMOTE_URL&gt;
+git push -u origin main
+</code></pre>
+<p>The <code>&lt;REMOTE_URL&gt;</code> needs to be replaced with the URL of your repository.</p>
+<p>Lastly, run the <code>mkdocs gh-deploy</code> command:</p>
+<pre><code>mkdocs gh-deploy
+</code></pre>
+<p>MkDocs will commit and push the local site to GitHub, and your website will be live on GitPages.</p>
+<p>The URL for your site will look similar to mine, <a href="https://connor-partington.github.io/portfolio/">https://connor-partington.github.io/portfolio/</a>, but it will include your GitHub username and project name instead. </p></div>
             </div>
         </div>
 

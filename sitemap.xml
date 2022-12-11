@@ -2,12 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://connor-partington.github.io/portfolio/</loc>
-         <lastmod>2022-12-06</lastmod>
+         <lastmod>2022-12-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://connor-partington.github.io/portfolio/autocabsaas/</loc>
-         <lastmod>2022-12-06</lastmod>
+         <lastmod>2022-12-11</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://connor-partington.github.io/portfolio/how-I-built-my-site/</loc>
+         <lastmod>2022-12-11</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://connor-partington.github.io/portfolio/release-notes/</loc>
+         <lastmod>2022-12-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
