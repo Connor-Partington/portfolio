@@ -6,9 +6,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         <meta name="author" content="Connor Partington">
-        <link rel="canonical" href="https://connor-partington.github.io/portfolio/release-notes/">
+        <link rel="canonical" href="https://connor-partington.github.io/portfolio/online-help/">
         <link rel="shortcut icon" href="../img/favicon.ico">
-        <title>Release notes - Connor Partington</title>
+        <title>Online help - Connor Partington</title>
         <link href="../css/bootstrap.min.css" rel="stylesheet">
         <link href="../css/font-awesome.min.css" rel="stylesheet">
         <link href="../css/base.css" rel="stylesheet">
@@ -55,11 +55,11 @@
 </li>
                                     
 <li>
-    <a href="./" class="dropdown-item active">Release notes</a>
+    <a href="../release-notes/" class="dropdown-item">Release notes</a>
 </li>
                                     
 <li>
-    <a href="../online-help/" class="dropdown-item">Online help</a>
+    <a href="./" class="dropdown-item active">Online help</a>
 </li>
                                 </ul>
                             </li>
@@ -72,17 +72,17 @@
                             </a>
                         </li>
                             <li class="nav-item">
-                                <a rel="prev" href="../how-I-built-my-site/" class="nav-link">
+                                <a rel="prev" href="../release-notes/" class="nav-link">
                                     <i class="fa fa-arrow-left"></i> Previous
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a rel="next" href="../online-help/" class="nav-link">
+                                <a rel="next" class="nav-link disabled">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="https://github.com/Connor-Partington/portfolio/edit/master/docs/release-notes.md" class="nav-link"><i class="fa fa-github"></i> Edit on GitHub</a>
+                                <a href="https://github.com/Connor-Partington/portfolio/edit/master/docs/online-help.md" class="nav-link"><i class="fa fa-github"></i> Edit on GitHub</a>
                             </li>
                     </ul>
                 </div>
@@ -102,17 +102,9 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-level="1"><a href="#manageit-192" class="nav-link">ManageIt 19.2</a>
+            <li class="nav-item" data-level="1"><a href="#online-help-zendesk" class="nav-link">Online help (Zendesk)</a>
               <ul class="nav flex-column">
-            <li class="nav-item" data-level="2"><a href="#whats-new" class="nav-link">What's New</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-level="2"><a href="#improvements" class="nav-link">Improvements</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-level="2"><a href="#bug-fixes" class="nav-link">Bug Fixes</a>
+            <li class="nav-item" data-level="2"><a href="#set-up-cabcard-on-manageit" class="nav-link">Set up CabCard on ManageIt</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -123,27 +115,45 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h1 id="manageit-192">ManageIt 19.2</h1>
-<p>Here you will find the latest features, improvements, and bug fixes for ManageIt.</p>
-<p>To ensure you have the best experience using our product, we recommend updating to the latest version available.</p>
-<h2 id="whats-new">What's New</h2>
-<h4 id="email-templates">Email templates</h4>
-<p>Send the perfect email every time by using one of our new email templates. Accessed by selecting <strong>Communication &gt; Email Templates</strong> from the main menu. On the Email Templates page, you can preview and use a wide range of email templates to suit your needs. </p>
-<p><img alt="Screenshot of email templates modal" src="../img/email-templates.webp" /></p>
-<h2 id="improvements">Improvements</h2>
-<h4 id="the-faster-the-better">The faster the better</h4>
-<p>We've made some changes and optimised some code, so you should now notice improved loading times through the app. </p>
-<h4 id="sidebar-redesign">Sidebar redesign</h4>
-<p>The sidebar has been completely redesigned to improve usability and to get back the needed space on the main panel.</p>
-<h4 id="resize-and-position">Resize and position</h4>
-<p>You can now edit the size and position of images you've attached to an email. </p>
-<h2 id="bug-fixes">Bug Fixes</h2>
-<ul>
-<li>Setting the date range on a report to a period over 30 days would cause the report to load endlessly. </li>
-<li>Trying to drag a ManageIt window between multiple screens was resulting in the window becoming transparent. </li>
-<li>When selecting multiple rows in a table, the "Copy selected" button did nothing at all. </li>
-<li>Some in-app help pages failed to load after the last update, </li>
-</ul></div>
+<h1 id="online-help-zendesk">Online help (Zendesk)</h1>
+<p>This is an online help sample I created in Zendesk, after moving a larger documentation suite from WordPress.</p>
+<h2 id="set-up-cabcard-on-manageit">Set up CabCard on ManageIt</h2>
+<p>Here's how you set up <a href="https://www.cabcard.services/">CabCard</a> on ManageIt.</p>
+<ol>
+<li>
+<p>Log in to <a href="./">ManageIt</a>.  </p>
+</li>
+<li>
+<p>Go to <strong>Management</strong> &gt; <strong>Driver app</strong> &gt; <strong>Settings Group</strong> &gt; <strong>Features</strong>.  </p>
+</li>
+<li>
+<p>Click the <strong>Add</strong> button.  </p>
+</li>
+<li>
+<p>In the <strong>Name</strong> field, enter <em>CabCard</em>.  </p>
+</li>
+<li>
+<p>Select <strong>Override Default Parameters</strong>.  </p>
+</li>
+<li>
+<p>Under the <strong>Location</strong> section, select <strong>Google Play Services</strong>, <strong>Non-GPS</strong>, and <strong>Estimated GPS</strong>.  </p>
+</li>
+<li>
+<p>Select the <strong>Meter</strong> tab.  </p>
+</li>
+<li>
+<p>From the <strong>Meter Type</strong> dropdown, select <strong>Default</strong>.  </p>
+</li>
+<li>
+<p>Select the <strong>External Devices</strong> tab.  </p>
+</li>
+<li>
+<p>From the <strong>Card Reader</strong> dropdown, select <strong>CabCard</strong>.  </p>
+</li>
+<li>
+<p>Select <strong>Save</strong>.</p>
+</li>
+</ol></div>
             </div>
         </div>
 
