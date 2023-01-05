@@ -2,7 +2,7 @@
 
 I’m Connor, a technical and UX writer based in Manchester, UK. Someone who takes the unbelievably complicated things developers create and makes them understandable for everyone.
 
-Here you will find written and visual samples of projects and pieces of work I've managed or had involvement with.
+Here you will find samples of projects and pieces of work I've managed or had involvement with.
 
 ## Projects
 
