@@ -7,8 +7,13 @@ site_author: Connor Partington
 extra_css:
     - css/extra.css
 
+theme:
+  name: gitbook
+
+plugins: []
+
 nav:
-  - Home: index.md
+  - Portfolio: index.md
   - Case Studies:
     - Autocab SaaS: autocabsaas.md
   - Technical Samples:

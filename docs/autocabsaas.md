@@ -1,4 +1,4 @@
-# Autocab SaaS
+# Autocab Ltd
 
 **Tools used**: WordPress, Zendesk
 
@@ -46,5 +46,3 @@ The project evolved into creating an online help centre based on Zendesk to cent
 * Configuring a live chat service to aid the support team. 
 * Configuring chatbot for automated responses. 
 * Working with developers to update contextual help links throughout each product. 
-
-Feel free to can check out [Autocab Help](https://support.autocab.com/hc/en-gb). 
