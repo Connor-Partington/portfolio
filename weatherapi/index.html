@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<title>API Endpoint - Connor Partington</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="A site for sharing my portfolio.">
+<meta name="generator" content="mkdocs-1.4.2, mkdocs-gitbook-1.0.7">
+<meta name="author" content="Connor Partington">
+<link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
+<meta name="HandheldFriendly" content="true"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta rel="next" href="" />
+<link href="../css/style.min.css" rel="stylesheet">
+<link href="../css/extra.css" rel="stylesheet"> 
+</head>
+
+<body>
+<div class="book">
+<div class="book-summary">
+
+<nav role="navigation">
+<ul class="summary">
+<li>
+<a href=".." target="_blank" class="custom-link">Connor Partington</a>
+</li>
+<li class="divider"></li>
+<li class="chapter" data-path="">
+<a href="..">Portfolio</a>
+<li class="header">Case Studies</li>
+
+<li>
+<a href="../autocabsaas/" class="">Autocab SaaS</a>
+</li>
+
+<li class="header">Technical Samples</li>
+
+<li>
+<a href="../how-I-built-my-site/" class="">How I built my site</a>
+</li>
+
+<li>
+<a href="../release-notes/" class="">Release notes</a>
+</li>
+
+<li>
+<a href="../online-help/" class="">Online help</a>
+</li>
+
+<li>
+<a href="../sop/" class="">Standard Operating Procedure</a>
+</li>
+
+<li>
+<a href="./" class="active">API Endpoint</a>
+</li>
+
+<li class="divider"></li>
+
+
+
+<li><a href="http://www.mkdocs.org">
+Published with MkDocs
+</a></li>
+
+<li><a href="https://github.com/GitbookIO/theme-default">
+Theme by GitBook
+</a></li>
+</ul>
+
+</nav>
+
+</div> <!-- end of book-summary -->
+
+<div class="book-body">
+<div class="body-inner">
+<div class="book-header" role="navigation">
+
+<!-- Title -->
+<h1>
+<i class="fa fa-circle-o-notch fa-spin"></i>
+<a href="." ></a>
+</h1>
+
+</div> <!-- end of book-header -->
+
+<div class="page-wrapper" tabindex="-1" role="main">
+<div class="page-inner">
+
+<section class="normal markdown-section">
+
+
+
+<h1 id="surferport">Surferport</h1>
+<h2 id="resource-description">Resource description</h2>
+<p>The Surf Report API lets you find information about surfing conditions, including surf height, water temperature, wind speed, and tide level. It also gives an overall recommendation on if you should go surfing. </p>
+<h2 id="endpoints">Endpoints</h2>
+<p><strong>GET</strong> /surfreport/<strong>{beachId}</strong></p>
+<p>Get the surf conditions for a specific beach ID.</p>
+<h2 id="parameters">Parameters</h2>
+<h3 id="path-parameters">Path parameters</h3>
+<table>
+<thead>
+<tr>
+<th align="left">Parameter</th>
+<th align="left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">{beachId}</td>
+<td align="left">The value for the beach you want to look up. Valid <code>beachId</code> values can be found at <a href="#surferport">surferport.com/beachIds</a>.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="query-string-parameters">Query string parameters</h3>
+<table>
+<thead>
+<tr>
+<th align="left">Parameter</th>
+<th align="left">Required / optional</th>
+<th align="left">Type</th>
+<th align="left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">days</td>
+<td align="left">Optional</td>
+<td align="left">Integer</td>
+<td align="left">The number of days to include in the response. Default is 3. Max is 7</td>
+</tr>
+<tr>
+<td align="left">time</td>
+<td align="left">Optional</td>
+<td align="left">Integer. Unix format (ms since 1970. Time zone is GMT or UTC.</td>
+<td align="left">The time of the day matching the timezone of the beach. Inlcude the hour to only show conditions for specified hour.</td>
+</tr>
+<tr>
+<td align="left">units</td>
+<td align="left">Optional</td>
+<td align="left">Enum</td>
+<td align="left">The default unit of measurement. Imperial or Metric.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="sample-request">Sample request</h2>
+<pre><code>curl -I -X GET "https://api.openweathermap.org/com/surfreport/123?&amp;days=2&amp;units=metrics&amp;hour=1400"
+</code></pre>
+<p>In the example, replace 'APIKEY' with your actual API key.</p>
+<h2 id="sample-response">Sample response</h2>
+<p>This is a sample response from the <code>surfreport/{beachId}</code> endpoint:</p>
+<pre><code>{
+    "surfreport": [
+        {
+            "beach": "Santa Cruz",
+            "monday": {
+                "1pm": {
+                    "tide": 5,
+                    "wind": 15,
+                    "watertemp": 60,
+                    "surfheight": 5,
+                    "recommendation": "Go surfing!"
+                },
+                "2pm": {
+                    "tide": -1,
+                    "wind": 1,
+                    "watertemp": 50,
+                    "surfheight": 3,
+                    "recommendation": "Surfing conditions are okay, not great"
+                }
+                ...
+
+            }
+        }
+    ]
+}
+</code></pre>
+<h3 id="response-definitions">Response definitions</h3>
+<p>The following table describes each item in the response:</p>
+<table>
+<thead>
+<tr>
+<th>Response item</th>
+<th>Description</th>
+<th>Data type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>beach</strong></td>
+<td>The beach you selected based on the beach ID in the request.</td>
+<td>String</td>
+</tr>
+<tr>
+<td><strong>{day}</strong></td>
+<td>The selected day of the week.</td>
+<td>Object</td>
+</tr>
+<tr>
+<td><strong>{time}</strong></td>
+<td>The time for the conditions based on the hour.</td>
+<td>String</td>
+</tr>
+<tr>
+<td>{day}/{time}/<strong>tide</strong></td>
+<td>The tide level at the beach based on the specififed day and time. The tide is out when the number is negative, in when the number is positive, and 0 when between states.</td>
+<td>Integer</td>
+</tr>
+<tr>
+<td>{day}/{time}/<strong>wind</strong></td>
+<td>The wind speed at the beach based on the specified day and time.</td>
+<td>Integer</td>
+</tr>
+<tr>
+<td>{day}/{time}/<strong>watertemp</strong></td>
+<td>The temperature of the water based on the specified day and time. Fahrenheit or Celsius depending on the units of measurement.</td>
+<td>Integer</td>
+</tr>
+<tr>
+<td>{day}/{time}/<strong>surfheight</strong></td>
+<td>The height of the waves based on the specified day and time.</td>
+<td>Integer</td>
+</tr>
+<tr>
+<td>{day}/{time}/<strong>recommendation</strong></td>
+<td>A recommendation on whether to go surfing or not based on a combination of the various factors</td>
+<td>String.</td>
+</tr>
+</tbody>
+</table>
+
+
+</section>
+
+</div> <!-- end of page-inner -->
+</div> <!-- end of page-wrapper -->
+
+</div> <!-- end of body-inner -->
+
+</div> <!-- end of book-body -->
+<script src="../js/main.js"></script>
+<script src="../js/gitbook.min.js"></script>
+<script src="../js/theme.min.js"></script>
+</body>
+</html>
