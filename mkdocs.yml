@@ -21,3 +21,4 @@ nav:
     - Release notes: release-notes.md
     - Online help: online-help.md
     - Standard Operating Procedure: sop.md
+    - API Endpoint: weatherapi.md

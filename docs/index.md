@@ -56,6 +56,8 @@ These samples are a work-in-progress as I develop my portfolio website.
 
 [**Standard Operating Procedure**](sop.md)
 
+[**API Endpoint**](weatherapi.md)
+
 ## Open-source contribution
 
 ### [Beyond All Reason](https://www.beyondallreason.info/)
