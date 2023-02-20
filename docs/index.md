@@ -58,6 +58,8 @@ These samples are a work-in-progress as I develop my portfolio website.
 
 [**API Endpoint**](weatherapi.md)
 
+[**Game Unit Description**](game-unit-description.md)
+
 ## Open-source contribution
 
 ### [Beyond All Reason](https://www.beyondallreason.info/)
