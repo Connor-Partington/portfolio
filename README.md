@@ -36,7 +36,7 @@ Since 2022, I have added UX Writing to my professional development through cours
 
 ## Projects
 
-### [Autocab Ltd](autocabsaas.md)
+### [Autocab Ltd](docs/autocabsaas.md)
 
 <img src="docs/img/autocab-wp-after.webp" width="200" height="100">
 
