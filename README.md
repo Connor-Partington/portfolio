@@ -42,23 +42,23 @@ Since 2022, I have added UX Writing to my professional development through cours
 
 Write and edit release notes, online help, user guides, manuals, FAQs, and internal documentation for 12 SaaS products. 
 
-[Learn more](autocabsaas.md)
+[Learn more](docs/autocabsaas.md)
 
 ## Technical samples
 
 These samples are a work-in-progress as I develop my portfolio website. 
 
-[**How I built my site**](how-I-built-my-site.md)
+[**How I built my site**](docs/how-I-built-my-site.md)
 
-[**Release notes**](release-notes.md)
+[**Release notes**](docs/release-notes.md)
 
-[**Online help**](online-help.md)
+[**Online help**](docs/online-help.md)
 
-[**Standard Operating Procedure**](sop.md)
+[**Standard Operating Procedure**](docs/sop.md)
 
-[**API Endpoint**](weatherapi.md)
+[**API Endpoint**](docs/weatherapi.md)
 
-[**Game Unit Description**](game-unit-description.md)
+[**Game Unit Description**](docs/game-unit-description.md)
 
 ## Open-source contribution
 
