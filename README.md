@@ -38,7 +38,7 @@ Since 2022, I have added UX Writing to my professional development through cours
 
 ### [Autocab Ltd](autocabsaas.md)
 
-<img src="img/autocab-wp-after.webp" width="200" height="100">
+<img src="docs/img/autocab-wp-after.webp" width="200" height="100">
 
 Write and edit release notes, online help, user guides, manuals, FAQs, and internal documentation for 12 SaaS products. 
 
@@ -64,7 +64,7 @@ These samples are a work-in-progress as I develop my portfolio website.
 
 ### [Beyond All Reason](https://www.beyondallreason.info/)
 
-<img src="img/bod.jpg" width="200" height="100">
+<img src="docs/img/bod.jpg" width="200" height="100">
 
 Technical Writer for web and in-game content.
 
