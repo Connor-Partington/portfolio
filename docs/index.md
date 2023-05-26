@@ -7,11 +7,11 @@ I have several years of technical writing experience, including remote and hybri
 * Leading documentation projects, and
 * Collaborating with subject matter experts. 
 
-I am currently the first Technical Writer in the Product team at Autocab Ltd and take the unbelievably complicated things our developers create and make them understandable for multiple audiences.
+I take the unbelievably complicated things developers create and make them understandable for multiple audiences.
 
 I have worked with mobile and web software development teams to create easy-to-understand documentation for multiple audiences.
 
-Since 2022, I have added UX Writing to my professional development through courses and writing UX copy for software products. I am also contributing to an open-source project to learn how to write for games, and will soon start learning how to document APIs. 
+Since 2022, I have added UX Writing to my professional development through courses and writing UX copy for software products. 
 
 **[LinkedIn](https://www.linkedin.com/in/connor-partington/) | [GitHub](https://github.com/Connor-Partington)**
 
@@ -27,11 +27,11 @@ Since 2022, I have added UX Writing to my professional development through cours
 
 ## Tools
 
-* Zendesk, WordPress
+* Zendesk, WordPress, HubSpot
 * Miro, Moqups, GIMP
 * Git, GitHub
 * JIRA, Monday.com
-* Text Editors
+* VS Code
 
 
 ## Projects
