@@ -5,7 +5,7 @@ Hi, I'm Connor Partington, a UK based Technical Writer with several years of tec
 * building you a knowledge base to help your customers self-serve.
 * authoring internal and external content for your products and processes.
 * collaborating with your teams to design features that are easy to use and understand.
-* implementing standard operating procedures to guide your staff and capture knowledge.
+* implementing standard operating procedures to guide your staff and capture knowledge. 
 
 This is my website for showcasing my technical writing experience and helping you get to know me. 
 
