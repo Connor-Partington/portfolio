@@ -1,17 +1,27 @@
 # Connor Partington
 
-I have several years of technical writing experience, including remote and hybrid working, in:
+Hi, I'm Connor Partington, a UK based Technical Writer with several years of technical and UX writing experience. If you need help with technical or user experience writing, let me help you by:
 
-* Writing and publishing technical content,
-* Managing information architecture,
-* Leading documentation projects, and
-* Collaborating with subject matter experts. 
+* building you a knowledge base to help your customers self-serve.
+* authoring internal and external content for your products and processes.
+* collaborating with your teams to design features that are easy to use and understand.
+* implementing standard operating procedures to guide your staff and capture knowledge. 
 
-I take the unbelievably complicated things developers create and make them understandable for multiple audiences.
+This is my website for showcasing my technical writing experience and helping you get to know me. 
 
-I have worked with mobile and web software development teams to create easy-to-understand documentation for multiple audiences.
+## Why use a Technical Writer?
 
-Since 2022, I have added UX Writing to my professional development through courses and writing UX copy for software products. 
+I'm one of the very first users of your product, and the difficulties I find when using your product are the difficulties your customers might eventually face.
+
+As a Technical Writer, I can take these difficulties and create comprehensive documentation that covers every question an end-user may ask and solutions to each problem they may face. 
+
+## Why me?
+
+I have a unique blend of technical expertise and writing skills that allows me to communicate complex information in a clear and concise manner. 
+
+I've experienced working on various projects, from software documentation to user guides to marketing materials, and have a strong track record of delivering high-quality work on time every time. 
+
+I'm also a strong collaborator who thrives in a team environment, and enjoy helping to create a user-friendly content that has a positive impact on users.
 
 **[LinkedIn](https://www.linkedin.com/in/connor-partington/) | [GitHub](https://github.com/Connor-Partington)**
 
@@ -33,8 +43,7 @@ Since 2022, I have added UX Writing to my professional development through cours
 * JIRA, Monday.com
 * VS Code
 
-
-## Projects
+## Past Projects
 
 ### [Autocab Ltd](autocabsaas.md)
 
@@ -68,3 +77,6 @@ These samples are a work-in-progress as I develop my portfolio website.
 
 Technical Writer for web and in-game content.
 
+## Professional development
+
+Since 2022, I have added UX Writing to my professional development through courses and writing UX copy for software products.
